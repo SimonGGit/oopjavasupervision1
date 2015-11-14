@@ -1,0 +1,53 @@
+Question 1:
+    Imperative languages have mutable variables while functional programs are mostly immutable
+    Imperative languages use primarily while loops and conditionals for control flow and functional programs
+        use functionn calls including recursion
+    Imperative languages use instances and objects while functional programs use functions and primitives
+
+
+Question 2:
+    See File Questions2.java
+
+Question 3:
+    Person p = null;
+    Creates a new person p with a a null (ie empty) value
+
+    Person p2 = new Person();
+    Creates a new person p2 with a reference to a location in memory containing all the values and methods associated
+    with the person class
+
+    p=p2;
+    The person p now refers to the same person as person p2 refers to instead of containing a reference to the null
+    value
+
+    p2 = new Person();
+    The person p2 now refers to a new person in another part of memory instead of the person it previously referred to.
+    Person p however still refers to that person.
+
+    p=null;
+    Person p now contains a null (ie empty) value instead of referring to a person. As now no references to the person
+    first created exist it is labelled as garbage and as java has an automatic garbage collecter it is now deleted
+    from memory.
+
+Question 4:
+    See File Questions4.java
+
+Question 5:
+    See File Questions5.java
+
+Question 6:
+    See File Questions6.java
+
+Question 7:
+    See File Questions7.java, LinkedList.java, LLElement.java
+
+Question 8:
+    See File Questions7.java, LinkedList.java, LLElement.java
+
+Question 9:
+    A stack is a list of items on a first in last out basis, so you can only access the last item you put in the list,
+    the head so to speak. Putting a new item on the stack is call pushing a value and removing the first element is
+    called popping the value
+
+Question 10:
+    See File Question10.java, Stack.java, StackElement.java
